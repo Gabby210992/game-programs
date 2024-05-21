@@ -10,7 +10,7 @@ def check_answer(guess, answer):
     elif guess < answer:
         print("Too low.")
     else:
-        print(f"You got it. The answer is {answer}")
+        print(f"You've got it. The answer is {answer}")
 
 def set_difficulty():
     """Prompts the user for a level and returns the difficulty level."""
